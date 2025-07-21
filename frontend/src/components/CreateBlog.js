@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import ReactQuill from 'react-quill-new';
-import 'react-quill-new/dist/quill.snow.css';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 import { createBlog } from '../features/blog/blogSlice';
 
 export default function CreateBlog() {

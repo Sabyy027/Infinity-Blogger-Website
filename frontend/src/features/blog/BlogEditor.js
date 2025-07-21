@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
-import ReactQuill from 'react-quill-new';
-import 'react-quill-new/dist/quill.snow.css';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 
 // Quill modules to strip all inline styles on paste
 const quillModules = {
