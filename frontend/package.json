@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.10.0",
     "emoji-picker-react": "^4.13.2",
+    "quill": "2.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-quill": "^2.0.0",
@@ -18,6 +19,9 @@
     "react-scripts": "5.0.1",
     "redux": "^5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "overrides": {
+    "quill": "2.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
