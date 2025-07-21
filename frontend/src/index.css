@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-apple bg-apple-gradient min-h-screen;
+  background-attachment: fixed;
+  transition: background 0.5s;
+}
+
+.glass {
+  @apply bg-apple-glass backdrop-blur-glass shadow-glass rounded-2xl;
+}
+
+/* Smooth transitions for buttons and cards */
+.btn-apple {
+  @apply transition-all duration-200 ease-in-out shadow hover:scale-105 hover:shadow-lg;
+}
+
+::selection {
+  background: #b3d1ff;
+  color: #111;
+}
